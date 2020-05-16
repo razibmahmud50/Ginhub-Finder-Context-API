@@ -4,8 +4,6 @@ import {
     CLEAR_USERS,
     GET_REPOS,
     SET_LOADING,
-    SET_ALERT,
-    REMOVE_ALERT
 } from '../types';
 
 
@@ -42,7 +40,7 @@ export default (state, action) => {
                 loading: true
             }
 
-            default:
-                return state;
+        default:
+            return state;
     }
 }
